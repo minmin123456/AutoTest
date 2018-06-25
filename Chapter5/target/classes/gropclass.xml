@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitename">
+   //关于根据类来执行的配置
+    <test name="runall">
+        <classes>
+            <class name="com.course.testng.group.gropclass1"></class>
+            <class name="com.course.testng.group.gropclass2"></class>
+            <class name="com.course.testng.group.gropclass3"></class>
+        </classes>
+
+    </test>
+
+    //关于组测试在类中运行的放的配置
+    <test name="onlyrunstu">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.testng.group.gropclass1"></class>
+            <class name="com.course.testng.group.gropclass2"></class>
+            <class name="com.course.testng.group.gropclass3"></class>
+        </classes>
+
+    </test>
+
+
+</suite>

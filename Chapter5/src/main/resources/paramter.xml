@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--通过xml参数化-->
+<!--name随便定义的-->
+<suite name="parameter">
+
+<!--name随便定义的-->
+    <test name="paramter">
+        <classes>
+            <parameter name="name" value="wangmin"/>
+            <parameter name="age" value="18"/>
+
+           <class name="com.course.testng.paramter.ParamterTest"/>
+        </classes>
+    </test>
+</suite>
