@@ -1,0 +1,19 @@
+启动命令
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8800 -c starup1.json
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8811 -c staruoget.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8822 -c staruppost.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8823 -c starupwithcookies.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8824 -c starwithheader.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8825 -c starupwithredirect.json
+
+{
+    "description":"这是被重定向道的请求",
+    "request":{
+      "uri":"/redirect/new"
+    },
+    "response":{
+      "text":"重定向成功啦"
+    }
+  }
