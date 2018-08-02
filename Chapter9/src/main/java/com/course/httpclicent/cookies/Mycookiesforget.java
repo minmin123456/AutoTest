@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
+@SuppressWarnings("Duplicates")
 public class Mycookiesforget {
 
     private String url;
